@@ -47,12 +47,12 @@ export default function Home() {
       <div className="uppercover">
         <div className="cov_text">
           <h1>
-            HDOLSET
+            UNICON
             <br />
             <span>ජාතියේ දූ පුතුන්ගේ ජාත්‍යන්තර තක්සලාව.</span>
           </h1>
           <p>
-            ශ්‍රී ලාංකීය දු දරුවන්ගේ අධ්‍යාපනය වෙනුවෙන් නිරතුරුවම කැපවුන HDOLSET
+            ශ්‍රී ලාංකීය දු දරුවන්ගේ අධ්‍යාපනය වෙනුවෙන් නිරතුරුවම කැපවුන UNICON
             හරහා ඔබගේ විෂයට අදාල ලංකාවේ ප්‍රවීන ගුරුවරුන් සමග සම්බන්ද වෙමින්
             නිවසේ සිට සුරක්ෂිතව අධ්‍යාපන කටයුතු සිදු කරන්න.
           </p>
@@ -61,7 +61,7 @@ export default function Home() {
           </Link>
           <div className="simple_footer">
             <h3>
-              COPYRIGHT © HDOLSET | PROUDLY POWERED BY
+              COPYRIGHT © UNICON | PROUDLY POWERED BY
               <span>
                 {
                   <Link to="//helamid.com" target="_blank">
