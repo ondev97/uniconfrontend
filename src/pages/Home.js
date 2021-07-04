@@ -43,8 +43,8 @@ export default function Home() {
       <div className="inde_counter">
         <div className="main_inde_counter">
           <div className="title">
-            <h1>ඔබ UNICON eClass තෝරාගත යුත්තේ ඇයි?</h1>
-            <h2>Why do you choose UNICON eClass?</h2>
+            <h1>ඔබ UNICON E-CLASS තෝරාගත යුත්තේ ඇයි?</h1>
+            <h2>Why do you choose UNICON E-CLASS?</h2>
           </div>
           <div className="wr">
             <div className="counter_colu">
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </div>
           <div className="butsec">
-            <Link to="#">
+            <Link to="./about">
               <button>Learn More</button>
             </Link>
           </div>

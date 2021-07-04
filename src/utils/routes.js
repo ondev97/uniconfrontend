@@ -17,13 +17,11 @@ export default [
     components: () => <Home />,
   },
   ,
-  /*{
+  {
     path: "/about",
-    components: () => <About />,
-  } {
-        path:'/contact',
-        components: () =><ContactUs/>
-    },*/ {
+    components: () => <Features />,
+  },
+  {
     path: "/features",
     components: () => <Features />,
   },
