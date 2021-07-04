@@ -18,9 +18,9 @@ export default function Footer() {
           </div>
           <div className="ab">
             <p>
-              ශ්‍රී ලාංකීය දු දරුවන්ගේ අධ්‍යාපනය වෙනුවෙන් නිරතුරුවම කැපවුන
-              UNICON හරහා ඔබගේ විෂයට අදාල ලංකාවේ ප්‍රවීන ගුරුවරුන් සමග සම්බන්ද
-              වෙමින් නිවසේ සිට සුරක්ෂිතව අධ්‍යාපන කටයුතු සිදු කරන්න.
+              ශ්‍රී ලාංකීය දූ දරුවන් හට විධිමත් අධ්‍යාපනයක් ලබාදීම වෙනුවෙන්
+              නිරතුරුව ම කැප වෙන ප්‍රවීණ ගුරු මඩුල්ලක් යටතේ ඔබගේ විෂයයන්
+              හැදෑරීමට UNICON E-CLASS සමග අත්වැල් බැඳගන්න.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Footer() {
               <Link to="#">Guidelines</Link>
             </li>
             <li>
-              <Link to="#">Our Features</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
               <Link to="/allteachers">Teachers</Link>
@@ -67,7 +67,7 @@ export default function Footer() {
       </div>
       <div className="small_footer">
         <h3>
-          COPYRIGHT © UNICON | PROUDLY POWERED BY
+          COPYRIGHT © UNICON INSTITUTE| PROUDLY POWERED BY
           <span>
             {
               <Link to="//helamid.com" target="_blank">

@@ -54,25 +54,25 @@
   background-color: red;
 }
 .outer-box:nth-child(2) .length-box h1:after {
-  background-color: #79a5f2;
+  background-color: #ffd600;
 }
 .outer-box:nth-child(3) .length-box h1:after {
-  background-color: #39b54a;
+  background-color: #b4fce9;
 }
 .outer-box:nth-child(4) .length-box h1:after {
-  background-color: #ffbd59;
+  background-color: #c8dae5;
 }
 .outer-box:nth-child(1) .length-box {
   background-color: #fff2f2;
 }
 .outer-box:nth-child(2) .length-box {
-  background-color: #e6efff;
+  background-color: #fffbe4;
 }
 .outer-box:nth-child(3) .length-box {
-  background-color: #e8ffeb;
+  background-color: #e8fff9;
 }
 .outer-box:nth-child(4) .length-box {
-  background-color: #fff8ed;
+  background-color: #e5f5ff;
 }
 .outer-box .length-box p {
   font-family: "Abhaya Libre", serif;
