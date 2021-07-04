@@ -1,10 +1,10 @@
 :root {
   --background1: #f5f6f8;
-  --mainCovHeader: #004aad;
-  --h1Fontcolor: #004aad;
-  --inputFocColor: #004aad;
-  --buttonColor1: #004aad;
-  --buttonColorHover1: #004aad;
+  --mainCovHeader: #993399;
+  --h1Fontcolor: #993399;
+  --inputFocColor: #993399;
+  --buttonColor1: #993399;
+  --buttonColorHover1: #993399;
   --cardBackground: #c9aeff;
   --dashboardBack: #fefeff;
 }
@@ -54,19 +54,18 @@
   object-fit: cover;
 }
 .maininde .uppercover .cov_text h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: var(--mainCovHeader);
   margin-bottom: 25px;
   line-height: 50px;
 }
 .maininde .uppercover .cov_text h1 span {
-  font-size: 35px;
   color: black;
+  font-size: 30px;
   line-height: 30px;
-  font-family: "Abhaya Libre", serif;
 }
 .maininde .uppercover .cov_text p {
-  font-size: 21px;
+  font-size: 22px;
   margin-bottom: 35px;
   text-align: left;
   font-weight: 600;
@@ -385,9 +384,8 @@
   background-color: var(--buttonColorHover1);
 }
 
-/*Counter*/
 .maininde .inde_counter {
-  padding: 45px 0;
+  padding: 20px 30px;
 }
 .maininde .inde_counter h1 {
   font-size: 22px;
@@ -396,25 +394,107 @@
   text-align: center;
 }
 .maininde .inde_counter .main_inde_counter {
-  width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .maininde .inde_counter .main_inde_counter .wr {
-  padding: 45px 0 35px;
   display: flex;
   justify-content: space-evenly;
 }
+.maininde .inde_counter .main_inde_counter h1 {
+  color: #000;
+  font-size: 28px;
+}
 .maininde .inde_counter .main_inde_counter .counter_colu {
-  flex: 0.33;
+  flex: 0.25;
+  padding: 15px 14px;
+  margin-right: 28px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
   text-align: center;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 12px;
 }
 .maininde .inde_counter .main_inde_counter .counter_colu h3 {
-  font-size: 40px;
-  color: var(--h1Fontcolor);
+  font-size: 36px;
+  color: #808080;
+}
+.maininde .inde_counter .main_inde_counter .counter_colu:last-child {
+  margin-right: 0;
 }
 .maininde .inde_counter .main_inde_counter .counter_colu h2 {
-  margin-bottom: 3px;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: left;
+}
+.maininde .inde_counter .main_inde_counter .counter_colu img {
+  width: 70px;
+}
+/*new box*/
+.maininde .inde_counter.new-box .main_inde_counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maininde .inde_counter.new-box {
+  font-family: "Abhaya Libre", serif;
+  margin-top: 20px;
+}
+.maininde .inde_counter.new-box .wr {
+  width: 100%;
+}
+.maininde .inde_counter.new-box .main_inde_counter .title {
+  padding: 25px;
+  border: 1px solid var(--mainCovHeader);
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 30px;
+  background-color: #fbfaff;
+}
+.maininde .inde_counter.new-box .main_inde_counter .title h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.maininde .inde_counter.new-box .main_inde_counter .counter_colu img {
+  margin-bottom: 12px;
+}
+.maininde .inde_counter.new-box .main_inde_counter .counter_colu h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.maininde .inde_counter.new-box .main_inde_counter .counter_colu h3 {
+  font-size: 20px;
+  color: #000;
+}
+.maininde .inde_counter.one {
+  font-family: "Open Sans", sans-seri;
+}
+.maininde .inde_counter.one .main_inde_counter .title {
+  background-color: #fbfaff;
+}
+.maininde .inde_counter.one .main_inde_counter .title h1 {
+  font-size: 25px;
+}
+.maininde .inde_counter.one .main_inde_counter .counter_colu h2 {
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+.maininde .inde_counter.one .main_inde_counter .counter_colu h3 {
+  text-align-last: left;
+  text-indent: 25px;
+  font-size: 15px;
+  color: var(--buttonColorHover1);
+}
+.maininde .inde_counter.cont {
+  padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 
 /*get start*/
