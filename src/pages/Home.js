@@ -7,6 +7,7 @@ import live1 from "../img/live.png";
 import live2 from "../img/live2.svg";
 import live3 from "../img/live3.png";
 import live4 from "../img/live4.png";
+import log from "../img/2.png";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
           <h1>
             Your Success is Our Goal
             <br />
-            <span>WELCOME TO UNICON E-CLASS</span>
+            <span>WELCOME TO </span>
+            <img src={log} alt="logo" />
           </h1>
           <p>
             ශ්‍රී ලාංකීය දූ දරුවන් හට විධිමත් අධ්‍යාපනයක් ලබාදීම වෙනුවෙන්
@@ -25,7 +27,7 @@ export default function Home() {
           </p>
           <div className="simple_footer">
             <h3>
-              COPYRIGHT © UNICON | PROUDLY POWERED BY
+              COPYRIGHT © <img src={log} alt="logo" /> | PROUDLY POWERED BY
               <span>
                 {
                   <Link to="//helamid.com" target="_blank">
@@ -44,7 +46,9 @@ export default function Home() {
         <div className="main_inde_counter">
           <div className="title">
             <h1>ඔබ UNICON E-CLASS තෝරාගත යුත්තේ ඇයි?</h1>
-            <h2>Why do you choose UNICON E-CLASS?</h2>
+            <h2>
+              Why do you choose <img src={log} alt="logo" />
+            </h2>
           </div>
           <div className="wr">
             <div className="counter_colu">

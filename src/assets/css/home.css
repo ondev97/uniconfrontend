@@ -64,6 +64,9 @@
   font-size: 30px;
   line-height: 30px;
 }
+.maininde .uppercover .cov_text h1 img {
+  width: 200px;
+}
 .maininde .uppercover .cov_text p {
   font-size: 22px;
   margin-bottom: 35px;
@@ -93,6 +96,9 @@
   font-family: "Open Sans", sans-seri;
   bottom: 35px;
   font-size: 13px;
+}
+.maininde .uppercover .simple_footer h3 img {
+  width: 100px;
 }
 .maininde .uppercover .simple_footer h3 span a {
   color: var(--h1Fontcolor);
@@ -400,6 +406,8 @@
 .maininde .inde_counter .main_inde_counter .wr {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  grid-gap: 25px;
 }
 .maininde .inde_counter .main_inde_counter .butsec {
   margin: 25px 0;
@@ -418,14 +426,16 @@
   color: #000;
   font-size: 28px;
 }
+.maininde .inde_counter .main_inde_counter h2 img {
+  width: 150px;
+}
 .maininde .inde_counter .main_inde_counter .counter_colu {
   flex: 0.25;
   padding: 15px 14px;
-  margin-right: 28px;
   border: 1px solid #dddddd;
   border-radius: 10px;
   text-align: center;
-  background-color: #fbfbfb;
+  background-color: #fff2ff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
