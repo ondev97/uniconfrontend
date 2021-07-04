@@ -1,5 +1,5 @@
 import React from "react";
-import cov from "../img/cover.jpg";
+import cov from "../img/cover.png";
 import "../assets/css/home.css";
 import "../assets/css/mediaFiles/homemedia.css";
 import { Link } from "react-router-dom";
@@ -45,7 +45,10 @@ export default function Home() {
       <div className="inde_counter">
         <div className="main_inde_counter">
           <div className="title">
-            <h1>ඔබ UNICON E-CLASS තෝරාගත යුත්තේ ඇයි?</h1>
+            <h1>
+              ඔබ <img src={log} alt="logo" />
+              තෝරාගත යුත්තේ ඇයි?
+            </h1>
             <h2>
               Why do you choose <img src={log} alt="logo" />
             </h2>

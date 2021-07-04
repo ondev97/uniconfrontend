@@ -55,14 +55,16 @@
 }
 .maininde .uppercover .cov_text h1 {
   font-size: 45px;
-  color: var(--mainCovHeader);
+  color: #262626;
   margin-bottom: 25px;
   line-height: 50px;
+  font-family: "Playball", cursive;
 }
 .maininde .uppercover .cov_text h1 span {
   color: black;
   font-size: 30px;
   line-height: 30px;
+  font-family: "Open Sans", sans-seri;
 }
 .maininde .uppercover .cov_text h1 img {
   width: 200px;
@@ -424,7 +426,11 @@
 }
 .maininde .inde_counter .main_inde_counter h1 {
   color: #000;
-  font-size: 28px;
+  font-size: 35px;
+  font-family: "Abhaya Libre", serif;
+}
+.maininde .inde_counter .main_inde_counter h1 img {
+  width: 180px;
 }
 .maininde .inde_counter .main_inde_counter h2 img {
   width: 150px;
