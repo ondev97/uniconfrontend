@@ -43,8 +43,8 @@ export default function Home() {
       <div className="inde_counter">
         <div className="main_inde_counter">
           <div className="title">
-            <h1>ඔබ Eyekon eClass තෝරාගත යුත්තේ ඇයි?</h1>
-            <h2>Why do you choose Eyekon eClass?</h2>
+            <h1>ඔබ UNICON eClass තෝරාගත යුත්තේ ඇයි?</h1>
+            <h2>Why do you choose UNICON eClass?</h2>
           </div>
           <div className="wr">
             <div className="counter_colu">
@@ -71,6 +71,11 @@ export default function Home() {
               </div>
               <h2>Login Sessions</h2>
             </div>
+          </div>
+          <div className="butsec">
+            <Link to="#">
+              <button>Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

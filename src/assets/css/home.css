@@ -401,6 +401,19 @@
   display: flex;
   justify-content: space-evenly;
 }
+.maininde .inde_counter .main_inde_counter .butsec {
+  margin: 25px 0;
+  width: 100%;
+  text-align: right;
+}
+.maininde .inde_counter .main_inde_counter .butsec button {
+  width: 120px;
+  padding: 10px;
+  background-color: var(--h1Fontcolor);
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
 .maininde .inde_counter .main_inde_counter h1 {
   color: #000;
   font-size: 28px;
@@ -432,6 +445,7 @@
 .maininde .inde_counter .main_inde_counter .counter_colu img {
   width: 70px;
 }
+
 /*new box*/
 .maininde .inde_counter.new-box .main_inde_counter {
   display: flex;
