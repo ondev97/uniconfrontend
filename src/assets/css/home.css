@@ -31,9 +31,9 @@
   padding: 40px;
   background: linear-gradient(
     to right,
-    #fff,
-    #fffffffc,
-    #ffffffcc,
+    #ffffffe0,
+    #ffffffc9,
+    #ffffff7d,
     transparent
   );
   display: flex;
@@ -47,10 +47,11 @@
   position: absolute;
   top: 0;
   left: 0;
+  overflow-y: hidden;
 }
 .maininde .uppercover .cov_img img {
   width: 100%;
-  height: 100%;
+  height: 130%;
   object-fit: cover;
 }
 .maininde .uppercover .cov_text h1 {
