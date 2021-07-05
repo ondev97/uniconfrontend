@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cov from "../img/cover.png";
 import "../assets/css/home.css";
 import "../assets/css/mediaFiles/homemedia.css";
@@ -7,15 +7,23 @@ import live1 from "../img/live.png";
 import live2 from "../img/live2.svg";
 import live3 from "../img/live3.png";
 import live4 from "../img/live4.png";
-import log from "../img/2.png";
+import { useDispatch } from "react-redux";
+import { activeAccount } from "../actions";
+import { loadStDetails } from "../actions/stDetailsAction";
 
 export default function Home() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(activeAccount());
+    dispatch(loadStDetails());
+    window.scrollTo(0, 0);
+  }, [dispatch]);
   return (
     <div className="maininde">
       <div className="uppercover">
         <div className="cov_text">
           <h1>
-            "Your Success is Our Goal"
+            "Your Success is Our Goal "
             <br />
             <span>WELCOME TO UNICON E-CLASS</span>
           </h1>

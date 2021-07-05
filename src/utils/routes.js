@@ -9,6 +9,7 @@ import PasswordReset from "../pages/PasswordReset";
 import Features from "../pages/Features";
 import Guidelines from "../pages/Guidelines";
 import NotFound from "../pages/NotFound";
+import About from "../pages/About";
 
 export default [
   {
@@ -19,7 +20,7 @@ export default [
   ,
   {
     path: "/about",
-    components: () => <Features />,
+    components: () => <About />,
   },
   {
     path: "/features",
