@@ -88,6 +88,12 @@
     margin-bottom: 15px;
   }
 }
+@media screen and (max-width: 335px) {
+  .maininde .body_sec .ab_column .outer-img {
+    width: 200px;
+    height: 200px;
+  }
+}
 @media screen and (max-width: 290px) {
   .maininde .body_sec:nth-child(2) .ab_column:nth-child(2) {
     display: none;
