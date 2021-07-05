@@ -16,8 +16,8 @@
   margin-bottom: 50px;
 }
 .outer-box .small-box {
-  max-width: 120px;
-  height: 120px;
+  max-width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,15 +32,15 @@
   height: 90%;
 }
 .outer-box .length-box {
-  max-width: 900px;
+  max-width: 750px;
   min-height: 180px;
-  padding: 35px 20px 35px 100px;
+  padding: 35px 20px 35px 75px;
   border-radius: 24px;
 }
 .outer-box .length-box h1 {
   position: relative;
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .outer-box .length-box h1:after {
   content: "";

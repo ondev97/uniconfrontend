@@ -9,9 +9,6 @@ import FeaturesBox from "../components/FeaturesBox";
 export default function Features() {
   return (
     <div className="maininde">
-      <div className="upper_cover">
-        <h1>About Us</h1>
-      </div>
       <div className="features-container">
         <FeaturesBox
           image={features1}
