@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import cov from "../img/cover.png";
+import cov from "../img/cover.jpg";
 import "../assets/css/home.css";
 import "../assets/css/mediaFiles/homemedia.css";
 import { Link } from "react-router-dom";
