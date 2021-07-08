@@ -10,7 +10,7 @@ function RegisterInfo() {
         <section>
           <p>
             Username (Class Number) ලෙස ඔබගේ institute එකෙන් ඔබට ලබාදෙන ඔබටම
-            අනන්‍ය වූ අංකය පමණක් භාවිතා කිරීම අනිවාර්ය වේ. (EX: 23A011).
+            අනන්‍ය වූ අංකය පමණක් භාවිතා කිරීම අනිවාර්ය වේ. (EX: 21ARE001).
             <br />
             <span className="red">
               ඉන් පරිබාහිරව ලබාදෙන username සහිත සියලු student accounts
