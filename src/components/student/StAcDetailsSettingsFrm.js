@@ -56,6 +56,7 @@ export default function StAcDetailsSettingsFrm({
               value={values.userName || ""}
               onChange={hadelChange}
               onFocus={hideError}
+              disabled
             />
             {errors.userName && (
               <span className={`tip ${hide.userName ? "hidetip" : ""}`}>
