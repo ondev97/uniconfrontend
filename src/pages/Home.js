@@ -10,6 +10,7 @@ import live4 from "../img/live4.png";
 import { useDispatch } from "react-redux";
 import { activeAccount } from "../actions";
 import { loadStDetails } from "../actions/stDetailsAction";
+import whatsapp from "../img/whatsapp.png";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -32,6 +33,15 @@ export default function Home() {
             නිරතුරුව ම කැප වෙන ප්‍රවීණ ගුරු මඩුල්ලක් යටතේ ඔබගේ විෂයයන් හැදෑරීමට
             UNICON E-CLASS සමග අත්වැල් බැඳගන්න.
           </p>
+          <div className="butsec">
+            <h3>For class registration</h3>
+            <Link to="//wa.me/94714730257" target="_blank">
+              <button>
+                <img src={whatsapp} alt="whats app" />
+                0714730257
+              </button>
+            </Link>
+          </div>
           <div className="simple_footer">
             <h3>
               COPYRIGHT © UNICON INSTITUTE| PROUDLY POWERED BY

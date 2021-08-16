@@ -107,6 +107,38 @@
   color: var(--h1Fontcolor);
   text-decoration: none;
 }
+.maininde .uppercover .butsec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  grid-gap: 50px;
+}
+.maininde .uppercover .butsec h3 {
+  color: #993399;
+  font-weight: 600;
+}
+.maininde .uppercover .butsec a {
+  text-decoration: none;
+}
+.maininde .uppercover .butsec button {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 6px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #993399;
+}
+.maininde .uppercover .butsec button:hover {
+  background-color: #fbfaff;
+}
+.maininde .uppercover .butsec button img {
+  width: 20px;
+  height: 20px;
+}
 .maininde .cards_section {
   position: relative;
   width: 1100px;
