@@ -34,7 +34,7 @@ export default function Home() {
             UNICON E-CLASS සමග අත්වැල් බැඳගන්න.
           </p>
           <div className="butsec">
-            <h3>For class registration</h3>
+            <h3>For Class Registration</h3>
             <Link to="//wa.me/94714730257" target="_blank">
               <button>
                 <img src={whatsapp} alt="whats app" />

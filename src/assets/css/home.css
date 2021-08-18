@@ -108,10 +108,15 @@
   text-decoration: none;
 }
 .maininde .uppercover .butsec {
-  width: 100%;
+  width: 50%;
+  padding: 15px;
+  background-color: #dedede87;
+  border: 1px solid #eee;
   display: flex;
   align-items: center;
-  grid-gap: 50px;
+  justify-content: center;
+  border-radius: 8px;
+  grid-gap: 20px;
 }
 .maininde .uppercover .butsec h3 {
   color: #993399;
@@ -130,7 +135,7 @@
   border-radius: 30px;
   background-color: #fff;
   color: #000;
-  border: 1px solid #993399;
+  border: 1px solid #4caf50;
 }
 .maininde .uppercover .butsec button:hover {
   background-color: #fbfaff;
