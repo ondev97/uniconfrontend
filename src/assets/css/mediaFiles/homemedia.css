@@ -24,6 +24,9 @@
   .maininde .get_start_sec .main_get_start .get_start_column img {
     width: 400px;
   }
+  .maininde .uppercover .butsec {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 820px) {
   .maininde .uppercover .cov_text {
@@ -32,6 +35,13 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    background: linear-gradient(
+      90deg,
+      #2c1378,
+      #2c1378,
+      #2c1378b3,
+      transparent
+    );
   }
   .maininde .uppercover .cov_img {
     display: flex;
@@ -54,6 +64,10 @@
   .maininde .uppercover .cov_text p {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .maininde .uppercover .butsec {
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 630px) {

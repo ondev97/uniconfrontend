@@ -8,6 +8,10 @@
   --cardBackground: #c9aeff;
   --dashboardBack: #fefeff;
 }
+@font-face {
+  font-family: fmmalithi;
+  src: url("../../font/FM_MALIT.TTF");
+}
 .maininde {
   width: 100%;
   height: 100%;
@@ -29,13 +33,6 @@
   z-index: 100;
   min-height: calc(100vh - 91px);
   padding: 40px;
-  background: linear-gradient(
-    to right,
-    #ffffffe0,
-    #ffffffc9,
-    #ffffff7d,
-    transparent
-  );
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -51,32 +48,37 @@
 }
 .maininde .uppercover .cov_img img {
   width: 100%;
-  height: 130%;
+  height: 100%;
   object-fit: cover;
 }
 .maininde .uppercover .cov_text h1 {
   font-size: 45px;
-  color: #262626;
+  color: #eeb43b;
   margin-bottom: 25px;
   line-height: 50px;
-  font-family: "Playball", cursive;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Bebas Neue", cursive;
 }
 .maininde .uppercover .cov_text h1 span {
-  color: black;
-  font-size: 30px;
+  color: #fff;
+  font-size: 25px;
   line-height: 30px;
-  font-family: "Open Sans", sans-seri;
+  font-weight: 100;
+  letter-spacing: 1.1px;
+  font-family: "Bebas Neue", cursive;
 }
 .maininde .uppercover .cov_text h1 img {
   width: 200px;
 }
 .maininde .uppercover .cov_text p {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 35px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   width: 70%;
-  font-family: "Abhaya Libre", serif;
+  font-family: "fmmalithi", serif;
+  color: #fff;
 }
 .maininde .uppercover .cov_text button {
   padding: 12px;
@@ -99,19 +101,18 @@
   font-family: "Open Sans", sans-seri;
   bottom: 35px;
   font-size: 13px;
+  color: #fff;
 }
 .maininde .uppercover .simple_footer h3 img {
   width: 100px;
 }
 .maininde .uppercover .simple_footer h3 span a {
-  color: var(--h1Fontcolor);
+  color: #eeb43b;
   text-decoration: none;
 }
 .maininde .uppercover .butsec {
-  width: 50%;
-  padding: 15px;
-  background-color: #dedede87;
-  border: 1px solid #eee;
+  width: 51%;
+  padding: 15px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,26 +120,28 @@
   grid-gap: 20px;
 }
 .maininde .uppercover .butsec h3 {
-  color: #993399;
+  color: #fff;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .maininde .uppercover .butsec a {
   text-decoration: none;
 }
 .maininde .uppercover .butsec button {
-  width: 150px;
+  width: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
   grid-gap: 10px;
   padding: 6px;
-  border-radius: 30px;
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #4caf50;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #eeb43b;
+  border: 2px solid #fff;
+  font-size: 20px;
 }
 .maininde .uppercover .butsec button:hover {
-  background-color: #fbfaff;
+  background-color: #ffffff52;
 }
 .maininde .uppercover .butsec button img {
   width: 20px;
