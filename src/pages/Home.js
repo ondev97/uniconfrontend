@@ -24,14 +24,14 @@ export default function Home() {
       <div className="uppercover">
         <div className="cov_text">
           <h1>
-            "Your Success is Our Goal"
+            Your Success is Our Goal
             <br />
             <span>WELCOME TO UNICON E-CLASS</span>
           </h1>
           <p>
             ශ්‍රී ලාංකීය දූ දරුවන් හට විධිමත් අධ්‍යාපනයක් ලබාදීම වෙනුවෙන්
             නිරතුරුව ම කැප වෙන ප්‍රවීණ ගුරු මඩුල්ලක් යටතේ ඔබගේ විෂයයන් හැදෑරීමට
-            අප සමග අත්වැල් බැඳගන්න
+            අප සමග අත්වැල් බැඳගන්න<span>.</span>
           </p>
           <div className="butsec">
             <h3>For Class Registration</h3>

@@ -12,6 +12,10 @@
   font-family: fmmalithi;
   src: url("../../font/FM_MALIT.TTF");
 }
+@font-face {
+  font-family: Bebas Neue;
+  src: url("../../font/BebasNeue-Regular.ttf");
+}
 .maininde {
   width: 100%;
   height: 100%;
@@ -52,21 +56,23 @@
   object-fit: cover;
 }
 .maininde .uppercover .cov_text h1 {
-  font-size: 45px;
+  font-size: 38px;
   color: #eeb43b;
   margin-bottom: 25px;
   line-height: 50px;
   font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
   font-style: italic;
-  font-family: "Bebas Neue", cursive;
 }
 .maininde .uppercover .cov_text h1 span {
   color: #fff;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 30px;
-  font-weight: 100;
+  font-weight: normal;
   letter-spacing: 1.1px;
-  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-family: "Oswald", sans-serif;
 }
 .maininde .uppercover .cov_text h1 img {
   width: 200px;
@@ -75,10 +81,13 @@
   font-size: 20px;
   margin-bottom: 35px;
   text-align: left;
-  font-weight: 500;
+  font-weight: 300;
   width: 70%;
   font-family: "fmmalithi", serif;
   color: #fff;
+}
+.maininde .uppercover .cov_text p span {
+  font-family: serif;
 }
 .maininde .uppercover .cov_text button {
   padding: 12px;
@@ -111,7 +120,7 @@
   text-decoration: none;
 }
 .maininde .uppercover .butsec {
-  width: 51%;
+  width: 55%;
   padding: 15px 0;
   display: flex;
   align-items: center;
@@ -121,8 +130,11 @@
 }
 .maininde .uppercover .butsec h3 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 1.1px;
 }
 .maininde .uppercover .butsec a {
   text-decoration: none;
@@ -139,6 +151,7 @@
   color: #eeb43b;
   border: 2px solid #fff;
   font-size: 20px;
+  cursor: pointer;
 }
 .maininde .uppercover .butsec button:hover {
   background-color: #ffffff52;
