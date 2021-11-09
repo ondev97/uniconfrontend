@@ -1,12 +1,11 @@
 import Axios from "axios";
 import { AnimateSharedLayout } from "framer-motion";
-import React, { useState } from "react";
+import React from "react";
 import ReactHtmlParser from "react-html-parser";
 import LazyLoad from "react-lazyload";
 import ReactPlayer from "react-player/lazy";
 import { useSelector } from "react-redux";
 import ModuleBody from "./ModuleBody";
-import UPlayerComponent from "./UPlayerComponent";
 
 export default function TcOneModel({
   name,
@@ -15,8 +14,8 @@ export default function TcOneModel({
   id,
   cid,
   setisRemoveModule,
-  setvideoLink,
-  setsetVideo,
+  // setvideoLink,
+  // setsetVideo,
 }) {
   //get acDetails from Redux Store
   const usDetails = useSelector((state) => state.accountDetails);
@@ -38,11 +37,21 @@ export default function TcOneModel({
               if (nodes[i].props.children[x].type === "oembed") {
                 if (nodes[i].props.children[x].props.url.includes("youtu")) {
                   media.push(
-                    <div className="re_player" id="re_player" key={i}>
-                      <UPlayerComponent
+                    // <div className="re_player" id="re_player" key={i}>
+                    //   <UPlayerComponent
+                    //     url={nodes[i].props.children[x].props.url}
+                    //     setvideoLink={setvideoLink}
+                    //     setsetVideo={setsetVideo}
+                    //   />
+                    // </div>
+                    <div className="re_player" key={i}>
+                      <ReactPlayer
                         url={nodes[i].props.children[x].props.url}
-                        setvideoLink={setvideoLink}
-                        setsetVideo={setsetVideo}
+                        controls={true}
+                        pip={true}
+                        className="player"
+                        width="100%"
+                        height="100%"
                       />
                     </div>
                   );

@@ -14,11 +14,11 @@ export default function TcModels() {
   const [moduleData, setmoduleData] = useState([]);
   const [moduleFiles, setmoduleFiles] = useState([]);
   const [isRemoveModule, setisRemoveModule] = useState(false);
-  const [videoLink, setvideoLink] = useState("");
-  const [setVideo, setsetVideo] = useState(false);
-  const [playing, setplaying] = useState(true);
-  const [volume, setvolume] = useState(1);
-  const [mute, setmute] = useState(false);
+  // const [videoLink, setvideoLink] = useState("");
+  // const [setVideo, setsetVideo] = useState(false);
+  // const [playing, setplaying] = useState(true);
+  // const [volume, setvolume] = useState(1);
+  // const [mute, setmute] = useState(false);
   //get acDetails from Redux Store
   const usDetails = useSelector((state) => state.accountDetails);
   const { cid } = useParams();
@@ -57,14 +57,14 @@ export default function TcModels() {
     }
   }, [moduleData]);
 
-  const videoBackground = (e) => {
-    if (e.target.className.includes("full_screen_video")) {
-      setsetVideo(false);
-      setplaying(true);
-      setvolume(1);
-      setvideoLink("");
-    }
-  };
+  // const videoBackground = (e) => {
+  //   if (e.target.className.includes("full_screen_video")) {
+  //     setsetVideo(false);
+  //     setplaying(true);
+  //     setvolume(1);
+  //     setvideoLink("");
+  //   }
+  // };
 
   //disable right click
   document.addEventListener("contextmenu", (e) => {
@@ -75,7 +75,7 @@ export default function TcModels() {
 
   return (
     <div>
-      {setVideo ? (
+      {/* {setVideo ? (
         <div className="full_screen_video" onClick={videoBackground}>
           <div className="video_player">
             {
@@ -115,7 +115,7 @@ export default function TcModels() {
         </div>
       ) : (
         ""
-      )}
+      )} */}
       <div className="models">
         <div className="md_all_models">
           <div className="md_models">
@@ -142,8 +142,8 @@ export default function TcModels() {
                     cid={cid}
                     moduleFiles={moduleFiles}
                     setisRemoveModule={setisRemoveModule}
-                    setvideoLink={setvideoLink}
-                    setsetVideo={setsetVideo}
+                    // setvideoLink={setvideoLink}
+                    // setsetVideo={setsetVideo}
                   />
                 ))
               ) : (

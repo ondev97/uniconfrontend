@@ -11,8 +11,8 @@ export default function StOneModule({
   msg,
   moduleFiles,
   id,
-  setvideoLink,
-  setsetVideo,
+  // setvideoLink,
+  // setsetVideo,
 }) {
   //filtering message and embed react player
   function filterTags(nodes) {
@@ -31,11 +31,21 @@ export default function StOneModule({
               if (nodes[i].props.children[x].type === "oembed") {
                 if (nodes[i].props.children[x].props.url.includes("youtu")) {
                   media.push(
-                    <div className="re_player" id="re_player" key={i}>
-                      <UPlayerComponent
+                    // <div className="re_player" id="re_player" key={i}>
+                    //   <UPlayerComponent
+                    //     url={nodes[i].props.children[x].props.url}
+                    //     setvideoLink={setvideoLink}
+                    //     setsetVideo={setsetVideo}
+                    //   />
+                    // </div>
+                    <div className="re_player" key={i}>
+                      <ReactPlayer
                         url={nodes[i].props.children[x].props.url}
-                        setvideoLink={setvideoLink}
-                        setsetVideo={setsetVideo}
+                        controls={true}
+                        pip={true}
+                        className="player"
+                        width="100%"
+                        height="100%"
                       />
                     </div>
                   );

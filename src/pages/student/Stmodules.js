@@ -110,18 +110,18 @@ export default function Stmodules() {
     return <Redirect to={`/studentdashboard/mycourses/`} />;
   }
 
-  const videoBackground = (e) => {
-    if (e.target.className.includes("full_screen_video")) {
-      setsetVideo(false);
-      setplaying(true);
-      setvolume(1);
-      setvideoLink("");
-    }
-  };
+  // const videoBackground = (e) => {
+  //   if (e.target.className.includes("full_screen_video")) {
+  //     setsetVideo(false);
+  //     setplaying(true);
+  //     setvolume(1);
+  //     setvideoLink("");
+  //   }
+  // };
 
   return (
     <div>
-      {setVideo ? (
+      {/* {setVideo ? (
         <div className="full_screen_video" onClick={videoBackground}>
           <div className="video_player">
             {
@@ -161,7 +161,7 @@ export default function Stmodules() {
         </div>
       ) : (
         ""
-      )}
+      )} */}
       <div className="models">
         <div className="md_all_models">
           <div className="md_models">
@@ -179,8 +179,8 @@ export default function Stmodules() {
                     name={data.module_name}
                     id={data.id}
                     moduleFiles={moduleFiles}
-                    setvideoLink={setvideoLink}
-                    setsetVideo={setsetVideo}
+                    // setvideoLink={setvideoLink}
+                    // setsetVideo={setsetVideo}
                   />
                 ))
               ) : (
